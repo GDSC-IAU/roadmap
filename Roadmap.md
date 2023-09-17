@@ -1,8 +1,10 @@
-# September
+# Roadmap App Development
 
-## 17-23
+## September
 
-### Git and github introduction
+### 17-23
+
+#### Git and github introduction
 
 - [Git Tutorial (w3schools.com)](https://www.w3schools.com/git/default.asp)
 - [How to Use Git and GitHub – Introduction for Beginners (freecodecamp.org)](https://www.freecodecamp.org/news/introduction-to-git-and-github/)
@@ -10,7 +12,7 @@
 - [Git - Basic Branching and Merging (git-scm.com)](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 - [Pull Requests in VS Code - YouTube](https://www.youtube.com/watch?v=LdSwWxVzUpo)
 
-### Project: Create a Simple Website
+#### Project: Create a Simple Website
 
 Description: You will create a simple static website with a few pages and use Git and GitHub to manage the project's version control.
 Tasks:
@@ -44,9 +46,9 @@ Tasks:
    - Invite a friend to collaborate on the project by adding them as a collaborator on the GitHub repository.
    - Have your friend clone the repository, create a branch, make changes, and create a Pull Request as well.
 
-## 24-30
+### 24-30
 
-### Introduction to Dart
+#### Introduction to Dart
 
 - [Dart basics | Dart](https://dart.dev/language)
 - [Variables | Dart](https://dart.dev/language/variables)
@@ -55,7 +57,7 @@ Tasks:
 - [Constructors | Dart](https://dart.dev/language/constructors)
 - [Understanding null safety | Dart](https://dart.dev/null-safety/understanding-null-safety)
 
-### Project: Building a Simple Task List App
+#### Project: Building a Simple Task List App
 
 Description: You will create a simple command-line task list application using Dart. This project will cover various Dart concepts.
 
@@ -80,8 +82,66 @@ Description: You will create a simple command-line task list application using D
 7. Task List App:
    - Build a simple task list app that allows users to add, view, update, and delete tasks.
    - Implement a menu-driven interface in the command line to interact with the task list.
-October
-November
-December
-January
-February
+
+## October
+
+### 1-14
+
+#### Introduction to Flutter
+
+- [Flutter - Beautiful native apps in record time](https://flutter.dev/)
+- [Flutter - Get started: install](https://flutter.dev/docs/get-started/install)
+- [Flutter - Get started: test drive](https://flutter.dev/docs/get-started/test-drive)
+- [Flutter - Building layouts](https://flutter.dev/docs/development/ui/layout)
+
+#### Challenge: How do I tell the weather?
+
+Description: You will create a simple weather app that displays the current weather conditions for a given location. This will only be front-end development, so you will not need to worry about fetching data from an API.
+
+1. Setup:
+   - Install Flutter on your local machine by following the official Flutter installation guide: [https://flutter.dev/docs/get-started/install]
+   - Create a new repository on GitHub (let's call it "WeatherApp").
+   - Create a new Flutter project using the flutter create command.
+   - Run the project in an emulator or on a physical device to ensure that everything is working properly.
+   - Delete the default code in the main.dart file and start with a clean slate.
+2. Layout (These are just ideas)
+    - Create a simple layout for the app that includes a text field for entering a location and a button to submit the location.
+    - Display the current weather conditions for the location in a card or container.
+3. Styling (Optional)
+    - Add some styling to the app to make it look nicer.
+    - Use a custom font for the text.
+    - Add some animations to the app.
+
+### 15-28
+
+#### Introduction to state management
+
+- [State management | Flutter](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple)
+
+#### Challenge: How do organize my tasks?
+
+Description: You will create a simple task list app that allows users to add, view, update, and delete tasks. This will be front-end development only, so you will not need to worry about fetching data from an API.
+
+1. Setup:
+   - Create a new repository on GitHub (let's call it "TaskListApp").
+   - Create a new Flutter project using the flutter create command.
+   - Run the project in an emulator or on a physical device to ensure that everything is working properly.
+   - Delete the default code in the main.dart file and start with a clean slate.
+
+2. Layout (These are just ideas)
+    - Create a simple layout for the app that includes a text field for entering a task and a button to submit the task.
+    - Display the list of tasks in a list view.
+    - Add a checkbox to each task to mark it as completed.
+    - Add a button to delete a task.
+3. Styling (Optional)
+    - Add some styling to the app to make it look nicer.
+    - Use a custom font for the text.
+    - Add some animations to the app.
+
+## November
+
+## December
+
+## January
+
+## February
