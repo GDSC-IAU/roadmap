@@ -116,7 +116,7 @@ Description: You will create a simple weather app that displays the current weat
 
 #### Introduction to state management
 
-- [State management | Flutter](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple)
+- [Stateful widgets | Flutter](https://www.geeksforgeeks.org/flutter-stateful-widget/)
 
 #### Challenge: How do organize my tasks?
 
