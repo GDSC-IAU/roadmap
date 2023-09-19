@@ -2,7 +2,7 @@
 
 ## September
 
-### 17-23
+### 17 - 23
 
 #### Git and github introduction
 
@@ -46,7 +46,7 @@ Tasks:
    - Invite a friend to collaborate on the project by adding them as a collaborator on the GitHub repository.
    - Have your friend clone the repository, create a branch, make changes, and create a Pull Request as well.
 
-### 24-30
+### 24 - 30
 
 #### Introduction to Dart
 
@@ -85,7 +85,7 @@ Description: You will create a simple command-line task list application using D
 
 ## October
 
-### 1-14
+### 1 - 14
 
 #### Introduction to Flutter
 
@@ -112,11 +112,18 @@ Description: You will create a simple weather app that displays the current weat
     - Use a custom font for the text.
     - Add some animations to the app.
 
-### 15-28
+### 15 - 28
+
+#### Midterm Break
+
+## November
+
+### 29 - 11
 
 #### Introduction to state management
 
 - [Stateful widgets | Flutter](https://www.geeksforgeeks.org/flutter-stateful-widget/)
+- [State Management | Flutter](https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro)
 - [Todo app with flutter](https://www.freecodecamp.org/news/learn-state-management-in-flutter/)
 
 #### Challenge: How do organize my tasks?
@@ -139,9 +146,105 @@ Description: You will create a simple task list app that allows users to add, vi
     - Use a custom font for the text.
     - Add some animations to the app.
 
-## November
+### 12 - 25
+
+#### Introduction to pub.dev
+
+- [pub.dev](https://pub.dev/)
+- [Flutter - Packages](https://flutter.dev/docs/development/packages-and-plugins/using-packages)
+- Example Design Packages:
+  - [Slider](https://pub.dev/packages/flutter_xlider)
+  - [Cards](https://pub.dev/packages/card_swiper)
+  - [Payment](https://pub.dev/packages/flutter_credit_card)
+
+#### Challenge: How do I pay for my coffee?
+
+Description: You will create a simple E-commerce app that allows users to add items to a cart and pay for them. This will be front-end development only, so you will not need to worry about fetching data from an API.
+
+1. Setup:
+   - Create a new repository on GitHub (let's call it "E-commerceApp").
+   - Create a new Flutter project using the flutter create command.
+   - Run the project in an emulator or on a physical device to ensure that everything is working properly.
+   - Delete the default code in the main.dart file and start with a clean slate.
+2. Layout (These are just ideas)
+    - Create a simple layout for the app that includes a list of items and a button to add them to a cart.
+    - Display the list of items in a grid view.
+    - Add a button to view the cart.
+    - Display the list of items in the cart.
+    - Add a button to pay for the items in the cart.
+3. Styling (Optional)
+   - Add some styling to the app to make it look nicer.
+   - Use a custom font for the text.
+   - Add some animations to the app.
+   - Add some cool packages from pub.dev to make the app more interesting.
 
 ## December
+
+### 26 - 9
+
+#### Introduction to Working with APIs
+
+- [Flutter - Networking & http](https://flutter.dev/docs/development/data-and-backend/networking)
+- [Flutter - JSON and serialization](https://flutter.dev/docs/development/data-and-backend/json)
+- [Flutter - Using packages](https://flutter.dev/docs/development/packages-and-plugins/using-packages)
+- [Freezed](https://pub.dev/packages/freezed)
+
+#### Challenge: How do I tell the weather, Part 2?
+
+Description: You will use your weather app from the first task, except now you will fetch the weather data from an API instead of hard-coding it.
+
+1. Setup:
+   - Create a new repository on GitHub (let's call it "WeatherApp2").
+   - Create a new Flutter project using the flutter create command.
+   - Run the project in an emulator or on a physical device to ensure that everything is working properly.
+   - Delete the default code in the main.dart file and start with a clean slate.
+2. Layout (These are just ideas)
+    - Create a simple layout for the app that includes a text field for entering a location and a button to submit the location.
+    - Display the current weather conditions for the location in a card or container.
+3. Styling (Optional)
+      - Add some styling to the app to make it look nicer.
+      - Use a custom font for the text.
+      - Add some animations to the app.
+4. API:
+      - Find an API that provides weather data for a given location.
+      - Fetch the weather data from the API and display it in the app.
+      - Handle any errors that may occur when fetching the data.
+
+### 10 - 23
+
+#### Introduction to Firebase
+
+- [FlutterFire | Firebase](https://firebase.flutter.dev/)
+- [Firebase - Get started](https://firebase.google.com/docs/flutter/setup)
+- [Firebase - Authentication](https://firebase.google.com/docs/auth)
+- [Firebase - Cloud Firestore](https://firebase.google.com/docs/firestore)
+- [Firebase - Cloud Storage](https://firebase.google.com/docs/storage)
+- [Firebase - Cloud Functions](https://firebase.google.com/docs/functions)
+
+#### Challenge: How do I organize my tasks, Part 2?
+
+Description: You will use your task list app from the second task, except now you will store the tasks in a database instead of in memory.
+
+1. Setup:
+   - Create a new repository on GitHub (let's call it "TaskListApp2").
+   - Create a new Flutter project using the flutter create command.
+   - Run the project in an emulator or on a physical device to ensure that everything is working properly.
+   - Delete the default code in the main.dart file and start with a clean slate.
+2. Layout (These are just ideas)
+    - Create a simple layout for the app that includes a text field for entering a task and a button to submit the task.
+    - Display the list of tasks in a list view.
+    - Add a checkbox to each task to mark it as completed.
+    - Add a button to delete a task.
+3. Styling (Optional)
+      - Add some styling to the app to make it look nicer.
+      - Use a custom font for the text.
+      - Add some animations to the app.
+4. Database:
+      - Create a Firebase project and enable Cloud Firestore.
+      - Connect your Flutter app to the Firebase project.
+      - Store the tasks in the database instead of in memory.
+      - Fetch the tasks from the database and display them in the app.
+      - Add, update, and delete tasks in the database when the user interacts with the app.
 
 ## January
 
